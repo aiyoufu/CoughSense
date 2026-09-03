@@ -1,0 +1,41 @@
+# HarmonyOS / DevEco Studio build output
+**/build
+/.hvigor
+**/.hvigor
+/oh_modules
+**/oh_modules
+/node_modules
+/.cxx
+**/.test
+/.appanalyzer
+
+# Signing material — never commit certificates, keystores or profiles
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.cer
+*.csr
+*.p7b
+*.pem
+*.key
+
+# Packaged app bundles
+*.hap
+*.hsp
+*.app
+
+# IDE
+/.idea
+**/.idea
+*.iml
+/local.properties
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and caches
+*.log
+*.tsbuildinfo
+.ts_checker_cache

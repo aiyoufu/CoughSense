@@ -1,0 +1,11 @@
+{
+  "string": [
+    { "name": "ability_label", "value": "嗓子不适监测" },
+    { "name": "module_desc", "value": "嗓子不适自动监测模块" },
+    { "name": "ability_desc", "value": "嗓子不适自动监测与统计" },
+    { "name": "microphone_reason", "value": "需要使用麦克风持续采集声音，用于自动识别并记录嗓子不适事件（含清嗓），全部数据仅保存在本机" },
+    { "name": "bg_reason", "value": "锁屏或退后台时保持录音不被系统中断，确保夜间嗓子不适数据完整" },
+    { "name": "net_reason", "value": "仅用于获取当地天气数据，嗓子不适记录只保存在本机，不同步到云端" },
+    { "name": "location_reason", "value": "获取大致位置以查询当地天气温度，用于嗓子不适诱因分析" }
+  ]
+}
