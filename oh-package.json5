@@ -1,0 +1,11 @@
+{
+  "modelVersion": "5.0.0",
+  "name": "throatmonitor",
+  "version": "1.0.0",
+  "description": "嗓子不适监测 - 个人健康记录应用",
+  "main": "",
+  "author": "aiyoufu",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

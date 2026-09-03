@@ -1,0 +1,59 @@
+# HarmonyOS / DevEco Studio build output
+**/build
+/.hvigor
+**/.hvigor
+/oh_modules
+**/oh_modules
+/node_modules
+/.cxx
+**/.test
+/.appanalyzer
+
+# Signing material — never commit certificates, keystores or profiles
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.cer
+*.csr
+*.p7b
+*.pem
+*.key
+
+# Packaged app bundles
+*.hap
+*.hsp
+*.app
+
+# IDE
+/.idea
+**/.idea
+*.iml
+/local.properties
+.vscode/
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+.fleet/
+*.suo
+*.user
+*.swp
+*.swo
+
+# Tests and local tools — not part of the shipped repo
+tests/
+tools/
+.codepilot-uploads/
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and caches
+*.log
+*.tsbuildinfo
+.ts_checker_cache
